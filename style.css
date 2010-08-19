@@ -32,6 +32,7 @@ h1 {
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
   -webkit-transition: color 0.2s ease-in-out;
+  -moz-transform: rotate(-10deg);
 }
 
 h1:hover {
