@@ -26,13 +26,15 @@ h1 {
   position: absolute;
   top: 76px;
   left: 20%;
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  -o-transition: color 0.2s ease-in-out;
   -webkit-animation-name: pulse;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
   -webkit-transition: color 0.2s ease-in-out;
-  -moz-transform: rotate(-10deg);
 }
 
 h1:hover {
@@ -44,7 +46,6 @@ div#cont {
   margin: 100px auto 0;
   background-color: rgb(250, 250, 250);
   padding: 25px;
-  -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
