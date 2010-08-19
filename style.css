@@ -8,6 +8,19 @@ body {
   font-family: sans-serif;
 }
 
+div#disclaimer {
+	background-color: rgb(30, 30, 30);
+	color: rgb(230, 230, 230);
+	border-bottom: 1px solid rgb(100, 100, 100);
+	padding: 5px 0 5px 0;
+	font-size: 0.8em;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: rotate(-8deg);
