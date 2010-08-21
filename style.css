@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
 }
 
-div#disclaimer {
+div#wipdisclaimer {
 	background-color: rgb(30, 30, 30);
 	color: rgb(230, 230, 230);
 	border-bottom: 1px solid rgb(100, 100, 100);
@@ -34,11 +34,12 @@ a {
   text-decoration: none !important;
 }
 
-h1 {
+a > h1 {
   color: #000000;
   position: absolute;
   top: 76px;
-  left: 20%;
+  left: 5%;
+  font-size: 2.5em;
   -moz-transform: rotate(-10deg);
   -o-transform: rotate(-10deg);
   -o-transition: color 0.2s ease-in-out;
@@ -50,15 +51,67 @@ h1 {
   -webkit-transition: color 0.2s ease-in-out;
 }
 
-h1:hover {
+a > h1:hover {
   color: rgb(0, 153, 255);
 }
 
-div#cont {
-  width: 50%;
-  margin: 100px auto 0;
+div.box {
   background-color: rgb(250, 250, 250);
   padding: 25px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+
+div.box > p {
+	margin-bottom: 10px;
+}
+
+div.box > p:last-child {
+	margin: 0;
+}
+
+div#info {
+  width: 50%;
+  margin: 100px 0 0 10%;
+  text-align: center;
+}
+
+span.fabulous {
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+}
+span.fabulous:hover {
+	color:#FF76EB
+}
+
+div#ld18 {
+	margin: 40px 0 0 50%;
+	width: 40%;
+	padding-top: 10px;
+}
+
+div#ld18 > h1 {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+div#ld18 > img {
+	margin: 50px 0 0 -200px;
+	float: left;
+	background-color: rgb(250, 250, 250);
+	padding: 10px;
+	border-radius: 5px;
+	display: inline;
+}
+
+footer > div {
+	background-color: rgb(30, 30, 30);
+	color: rgb(230, 230, 230);
+	border-top: 1px solid rgb(100, 100, 100);
+	margin-top: 25px;
+	padding: 5px 0 5px 0;
+	font-size: 0.8em;
+	text-align: center;
+	width: 100%;
 }
