@@ -8,19 +8,6 @@ body {
   font-family: sans-serif;
 }
 
-div#wipdisclaimer {
-	background-color: rgb(30, 30, 30);
-	color: rgb(230, 230, 230);
-	border-bottom: 1px solid rgb(100, 100, 100);
-	padding: 5px 0 5px 0;
-	font-size: 0.8em;
-	text-align: center;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: rotate(-8deg);
@@ -37,7 +24,7 @@ a {
 a > h1 {
   color: #000000;
   position: absolute;
-  top: 76px;
+  top: 40px;
   left: 5%;
   font-size: 2.5em;
   -moz-transform: rotate(-10deg);
@@ -72,7 +59,7 @@ div.box > p:last-child {
 
 div#info {
   width: 50%;
-  margin: 100px 0 0 10%;
+  margin: 60px 0 0 10%;
   text-align: center;
 }
 
@@ -86,32 +73,48 @@ span.fabulous:hover {
 }
 
 div#ld18 {
-	margin: 40px 0 0 50%;
+	margin: 25px 0 0 50%;
 	width: 40%;
 	padding-top: 10px;
 }
 
 div#ld18 > h1 {
-	text-align: center;
 	padding-bottom: 5px;
+	margin-left: -10px;
 }
 
-div#ld18 > img {
-	margin: 50px 0 0 -200px;
+div#ld18 > div.screenshot {
+	margin: -5px 0 0 -200px;
 	float: left;
 	background-color: rgb(250, 250, 250);
-	padding: 10px;
-	border-radius: 5px;
-	display: inline;
+	padding: 14px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	width: 482px;
+	height: 362px;
+}
+
+div.screenshot > img {
+	border: 1px solid #5F5F5F;
+	width: 480px;
+	height: 360px;
+}
+
+#push {
+	height: 30px;
 }
 
 footer > div {
-	background-color: rgb(30, 30, 30);
-	color: rgb(230, 230, 230);
-	border-top: 1px solid rgb(100, 100, 100);
-	margin-top: 25px;
-	padding: 5px 0 5px 0;
-	font-size: 0.8em;
+	padding: 6px !important;
 	text-align: center;
-	width: 100%;
+	width: 30%;
+	margin: 25px auto 0;
+}
+
+div.links {
+	border-top: 1px solid rgb(230, 230, 230);
+	padding-top: 10px;
+	margin: 20px -25px -15px -25px;
+	text-align: center;
+	clear: both;
 }
