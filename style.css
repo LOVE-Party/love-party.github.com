@@ -106,6 +106,20 @@ div.preview iframe {
 	height: 362px;
 }
 
+div.preview {
+	position: relative;
+}
+
+div.preview span {
+	width: 480px;
+	height: 60px;
+	display: block;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	background: url(images/overlay.png) no-repeat; 
+}
+
 #push {
 	height: 30px;
 }
