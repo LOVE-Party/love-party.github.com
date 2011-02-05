@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 997px;
+	margin: 0 auto;
+	padding: 0;
+	background: #323232 url(bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+}
+
+div > p {
+	font-family: "Verdana" sans-serif;
+	font-size: 0.9em;
+	padding-bottom: 3px;
+}
+div > h1 {
+	font-family: "Arial";
+}
+
+body > header {
+	font-family: "Arial Black";
+	text-align: center;
+	color: #E9E9E9;
+	font-size: 90px;
+	padding: 0;
+	letter-spacing: -3px;
+}
+
+menu {
+	padding: 10px;
+	width: 977px;
+	background: #E9E9E9;
+	margin-bottom: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 1px solid #323232;
+	font-family: Verdana;
+}
+menu > li {
+	list-style: none;
+	display: inline;
+}
+menu > li > a {
+	color: #323232;
+}
+menu > li > a:hover {
+	color: #727272;
+}
+
+div {
+	background: #E9E9E9;
+	padding: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#games-page a > img {
+	border: 1px solid #323232;
+}
+#games-page a:hover > img {
+	border-color: #727272;
+}
+
+#index-page a.index {
+	font-weight: bold;
+}
+#about-page a.about {
+	font-weight: bold;
+}
+#games-page a.games {
+	font-weight: bold;
+}
+#contact-page a.contact {
+	font-weight: bold;
+}
